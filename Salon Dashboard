@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salon Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Salon Dashboard</h1>
+  <form id="add-salon-form">
+    <label for="salon-name">Salon Name:</label>
+    <input type="text" id="salon-name" name="salon-name" required>
+
+    <label for="salon-time">Available Time Slots:</label>
+    <input type="text" id="salon-time" name="salon-time" placeholder="e.g. 9:00 AM - 6:00 PM" required>
+
+    <button type="submit">Add Salon</button>
+  </form>
+
+  <div id="salon-list"></div>
+
+  <script src="salon-dashboard.js"></script>
+</body>
+</html>
