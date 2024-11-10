@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SalonSync - Book Your Slot</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Welcome to SalonSync</h1>
+  <form id="booking-form">
+    <label for="salon">Choose Salon:</label>
+    <select id="salon" name="salon">
+      <option value="salon1">Salon 1</option>
+      <option value="salon2">Salon 2</option>
+      <!-- Add dynamic list of salons -->
+    </select>
+    
+    <label for="time">Choose Time Slot:</label>
+    <input type="time" id="time" name="time" required>
+
+    <button type="submit">Book Slot</button>
+  </form>
+
+  <div id="token"></div>
+
+  <script src="booking.js"></script>
+</body>
+</html>
