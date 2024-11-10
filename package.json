@@ -1,0 +1,15 @@
+{
+  "name": "salonsync",
+  "version": "1.0.0",
+  "description": "SalonSync Platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {},
+  "author": "Your Name",
+  "license": "ISC"
+}
